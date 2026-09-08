@@ -1280,8 +1280,9 @@
 
 /* Main */
 
-	#aboutme > .container > p:not(:last-child) {
-		margin-bottom: 1em;
+	#main .container > p:not(:last-child),
+	#main .features p:not(:last-child) {
+		margin-bottom: 0.5em;
 	}
 
 	#main {
