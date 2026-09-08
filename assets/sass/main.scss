@@ -1280,6 +1280,10 @@
 
 /* Main */
 
+	#aboutme > .container > p:not(:last-child) {
+		margin-bottom: 1em;
+	}
+
 	#main {
 		> section {
 			border-top: solid (_size(border-width) * 3) _palette(border);
