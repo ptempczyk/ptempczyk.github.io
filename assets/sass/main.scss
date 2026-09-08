@@ -1131,6 +1131,10 @@
 				img {
 					display: block;
 					width: 100%;
+
+					&.muted {
+						filter: saturate(0.3);
+					}
 				}
 			}
 

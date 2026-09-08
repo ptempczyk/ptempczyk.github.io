@@ -2675,6 +2675,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
+				.features article .image img.muted {
+					filter: saturate(0.3);
+				}
+
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
